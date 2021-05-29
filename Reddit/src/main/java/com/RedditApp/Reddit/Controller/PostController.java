@@ -14,6 +14,8 @@ import java.util.List;
 
 import static java.time.LocalTime.now;
 
+
+@CrossOrigin
 @RestController
 @RequestMapping("/")
 public class PostController {

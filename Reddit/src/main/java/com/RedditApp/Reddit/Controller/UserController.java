@@ -14,6 +14,8 @@ import java.util.Optional;
 
 import static java.time.LocalTime.now;
 
+
+@CrossOrigin
 @RestController
 @RequestMapping("/")
 public class UserController {

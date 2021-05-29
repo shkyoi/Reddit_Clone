@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalTime;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/")
 public class CommentController {
